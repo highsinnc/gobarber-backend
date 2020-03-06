@@ -1,4 +1,4 @@
-import jwt, { decode } from 'jsonwebtoken'
+import jwt from 'jsonwebtoken'
 import authConfig from '../../config/auth'
 
 export default (req, res, next) => {
